@@ -4,6 +4,9 @@ REM ***************************************************************************
 REM Author: Chad Chapman
 REM Date: 20141026
 REM Version: 1.0
+REM Created this script in response to layout issues specific to Windows 8.
+REM Shortcuts were made on the desktop that provides this script with arguments
+REM such as "s" for shutdown and "r" for restart.
 REM ***************************************************************************
 IF /I "%1"=="/s" (
 	ECHO Windows is about to shutdown.  Press CNTRL+C to abort.
